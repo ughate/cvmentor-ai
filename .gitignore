@@ -1,0 +1,26 @@
+# Python
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+**/.env
+**/uploads/*
+**/output/*
+!**/uploads/.gitkeep
+!**/output/.gitkeep
+# Node
+**/node_modules/
+**/dist/
+
+# Environment files
+**/.env.local
+**/.env.*.local
+
+# All environment files (keep example templates)
+**/.env.*
+!**/.env.example
+
+# Local backups
+**/*.backup
+**/*.before-*
+**/*.auth-backup
